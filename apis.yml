@@ -1,8 +1,25 @@
 aid: punch-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/punch-software.png
 name: Punch Software
-description: Punch Software is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Punch! Software is a consumer and professional home, interior, and landscape design
+  software company, describing itself as the number-one global brand in home design with over twenty
+  years of market innovation. Its Punch! Home & Landscape Design product line lets homeowners, remodelers,
+  and designers plan and visualize renovation projects in 3D across Windows and Mac, with tools for
+  paint, flooring, stone, decks, patios, and blinds. The company was recapitalized by Insight Partners
+  (formerly Insight Venture Partners) and is tracked in the API Evangelist network as a portfolio lead.
+  It sells packaged desktop design software directly to retail and professional customers and publishes
+  no public API, developer portal, or SDK at this time.
 url: https://raw.githubusercontent.com/api-evangelist/punch-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Home Design
+- Software
+- Consumer Software
+- Design Tools
+- Landscape Design
+- Insight Partners
 apis: []
+common:
+- type: DomainSecurity
+  url: security/punch-software-domain-security.yml
+- type: Website
+  url: https://www.punchsoftware.com
+- type: Blog
+  url: https://www.punchsoftware.com/blog
+- type: Support
+  url: https://www.punchsoftware.com/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
